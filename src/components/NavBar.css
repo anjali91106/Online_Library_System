@@ -1,0 +1,28 @@
+
+body{
+    background-color: #e0ebed;
+}
+
+
+ul {
+    display: flex;
+    gap: 20px;
+    background-color: #F9D8A6;
+    padding: 15px 30px;
+    border-radius: 12px;
+    justify-content: center;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  ul li {
+    list-style: none;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  ul li:hover {
+    text-decoration: underline;
+    color: #F4A6B8;
+  }
+  

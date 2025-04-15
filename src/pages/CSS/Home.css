@@ -1,0 +1,144 @@
+.categorycon {
+    padding: 40px;
+    background-color: #fdf4ff;
+    min-height: 100vh;
+  }
+  
+  .category-list {
+    display: flex;
+    gap: 16px;
+    overflow-x: auto;
+    padding: 20px;
+    background-color: #fff0f6;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    list-style: none;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+  
+  .category-list h1 {
+    width: 100%;
+    font-size: 24px;
+    color: #F4A6B8;
+    margin-bottom: 20px;
+  }
+  
+  .category-list a {
+    text-decoration: none;
+  }
+  
+  .category-list li {
+    background-color: #D3A7E8;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 12px;
+    white-space: nowrap;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(124, 58, 237, 0.3);
+  }
+  
+  .category-list li:hover {
+    background-color: #a855f7;
+    transform: scale(1.05);
+    cursor: pointer;
+  }
+  
+
+
+/* browse page css */
+
+/* Main Container */
+.bookcontainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 40px;
+    background-color: #f8f4ff;
+  }
+  
+  /* Book Box Styling */
+  .bookbox {
+    background: #fff;
+    padding: 15px;
+    border-radius: 16px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .bookbox:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Book Image */
+  .bookbox img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  /* Book Title */
+  .bookbox h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #6b4fdb;
+    margin-bottom: 10px;
+  }
+  
+  /* Book Info (Author, Description, etc.) */
+  .bookbox p {
+    font-size: 14px;
+    color: #444;
+    margin-bottom: 8px;
+  }
+  
+  /* Button Styling */
+  button {
+    padding: 10px 20px;
+    background-color: #A7E6C3;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #F9D8A6;
+    transform: scale(1.05);
+  }
+  
+  .detailsbtn {
+    margin-top: 10px;
+  }
+  
+  /* Search Bar Styling */
+  #search {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  .searchbtn {
+    padding: 12px 20px;
+    background-color: #A7E6C3;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .searchbtn:hover {
+    background-color: #F9D8A6;
+  }
+  
